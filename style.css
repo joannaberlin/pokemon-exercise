@@ -1,0 +1,36 @@
+.title {
+    height: 100px;
+    width: auto;
+}
+.button {
+    width: 75px;
+    margin: 10px;
+}
+
+body {
+    padding: 30px;
+    background: #d53369;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbad6d, #d53369);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbad6d, #d53369); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#pokemon {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.poke {
+    width: 280px;
+    height: 280px;
+}
